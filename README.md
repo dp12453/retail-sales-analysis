@@ -70,4 +70,4 @@ The final project will include data exploration, data cleaning, SQL analysis, vi
 
 ---
 
-*This project is being developed incrementally as part of a hands-on Data Analytics portfolio.*
+*This project is being developed incrementally as part of a hands-on Data Analytics portfolio.*.
