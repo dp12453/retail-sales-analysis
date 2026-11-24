@@ -91,7 +91,13 @@ retail-sales-analysis/
 
 ## Project Status
 
-🟡 In Progress — Dataset setup and initial project organization completed. Analysis and findings will be added as the project progresses.
+🟡 In Progress
+
+- Dataset setup and initial exploration completed.
+- Excel sales analysis and business insights completed.
+- SQL sales and customer analysis documented.
+- Python EDA completed.
+- Power BI dashboard development pending.
 
 ## Objectives
 
