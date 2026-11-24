@@ -6,6 +6,35 @@ This project focuses on analyzing retail sales data to understand business perfo
 
 The goal is to use data analysis techniques to identify meaningful patterns in retail operations and generate actionable business insights.
 
+## Excel Analysis
+
+Performed sales analysis using Microsoft Excel with PivotTables, PivotCharts, sorting, filtering, and business summaries.
+
+### Analysis Performed
+- Sales and profit analysis by product category
+- Regional sales and profit comparison
+- Customer-level sales and profitability analysis
+- Customer segment performance
+- Monthly and yearly sales trends
+- Identification of top-performing and loss-making customers
+
+### Key Business Insights
+- Total Sales: $2.33 million
+- Total Profit: $292,296.81
+- Overall Profit Margin: 12.56%
+- Top Sales Category: Technology
+- Top Performing Region: West
+- Highest Sales Segment: Consumer
+- Highest Margin Segment: Home Office
+- Most Profitable Customer: Tamara Chand
+- Main Concern: Furniture has a relatively low profit margin.
+
+### Data Quality Limitation
+The dataset contains future-dated transactions in 2026. Therefore, 2026 results should not be interpreted as completed-year performance.
+
+### Excel Report
+[View Excel Analysis](reports/Retail_Sales_Analysis.xlsx)
+
 ## Business Objectives
 
 - Analyze overall sales and profitability.
