@@ -124,6 +124,14 @@ Performed sales analysis using Microsoft Excel with PivotTables, PivotCharts, so
 - **Main Concern:** Furniture Tables generated a loss of $17,753.21, while Furniture Bookcases generated a loss of $3,632.07.
 - **Loss-Making Customers:** 159 customers recorded negative overall profit.
 
+### Business Recommendations
+
+1. **Optimize Discount Strategy:** Review high-discount transactions and evaluate their impact on profitability.
+2. **Improve Product Profitability:** Investigate pricing, costs, and discounting for loss-making Furniture Tables and Bookcases.
+3. **Improve Regional Performance:** Analyze product mix and discount patterns in the Central region.
+4. **Customer Profitability:** Review loss-making customer transactions to identify opportunities to improve margins.
+5. **Monitor Performance:** Use the Power BI dashboard to track sales, profit margins, regional performance, and product trends.
+
 **Excel Report:** [View Excel Analysis](reports/Retail_Sales_Analysis.xlsx)
 
 ## Power BI Dashboard
@@ -200,7 +208,8 @@ retail-sales-analysis/
 ├── images/
 │   └── Retail_Sales_Dashboard.png
 │
-└── README.md
+├── README.md
+├── README_SQL.md
 ```
 
 ## Project Status
