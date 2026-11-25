@@ -76,7 +76,7 @@ Performed exploratory data analysis using Python and Pandas.
 
 ## SQL Analysis
 
-Prepared SQL scripts for business analysis using SQLite.
+Performed business analysis using SQLite and nine SQL scripts.
 
 ### Analysis Areas
 
@@ -89,6 +89,8 @@ Prepared SQL scripts for business analysis using SQLite.
 - Discount and profitability analysis
 - Time-series analysis
 - Business insights
+
+All nine SQL scripts were executed and validated against the project database.
 
 SQL scripts are available in the `sql/` directory.
 
@@ -104,33 +106,6 @@ Performed sales analysis using Microsoft Excel with PivotTables, PivotCharts, so
 - Customer segment performance
 - Monthly and yearly sales trends
 - Identification of top-performing and loss-making customers
-
-### Key Business Insights
-
-### Key Business Insights
-
-- **Total Sales:** $2,326,534.35
-- **Total Profit:** $292,296.81
-- **Total Orders:** 5,111
-- **Total Customers:** 804
-- **Overall Profit Margin:** 12.56%
-- **Top Sales Category:** Technology, generating $839,893.28 in sales.
-- **Most Profitable Category:** Technology, generating $146,543.38 in profit.
-- **Top Performing Region:** West, with a 14.98% profit margin.
-- **Lowest Performing Region:** Central, with a 7.92% profit margin.
-- **Highest Sales Segment:** Consumer.
-- **Highest Margin Segment:** Home Office, at 14.02%.
-- **Most Profitable Customer:** Tamara Chand, generating $8,981.32 profit.
-- **Main Concern:** Furniture Tables generated a loss of $17,753.21, while Furniture Bookcases generated a loss of $3,632.07.
-- **Loss-Making Customers:** 159 customers recorded negative overall profit.
-
-### Business Recommendations
-
-1. **Optimize Discount Strategy:** Review high-discount transactions and evaluate their impact on profitability.
-2. **Improve Product Profitability:** Investigate pricing, costs, and discounting for loss-making Furniture Tables and Bookcases.
-3. **Improve Regional Performance:** Analyze product mix and discount patterns in the Central region.
-4. **Customer Profitability:** Review loss-making customer transactions to identify opportunities to improve margins.
-5. **Monitor Performance:** Use the Power BI dashboard to track sales, profit margins, regional performance, and product trends.
 
 **Excel Report:** [View Excel Analysis](reports/Retail_Sales_Analysis.xlsx)
 
@@ -149,6 +124,7 @@ Developed an interactive Power BI dashboard to monitor retail sales performance 
 | Total Sales | $2.33M |
 | Total Profit | $292.30K |
 | Total Orders | 5,111 |
+| Total Customers | 804 |
 | Profit Margin | 12.56% |
 
 ### Dashboard Features
@@ -160,19 +136,40 @@ Developed an interactive Power BI dashboard to monitor retail sales performance 
 - Top 5 Products by Sales
 - Interactive slicers for Year, Region, and Category
 
-### Key Dashboard Insights
-
-- Technology generated the highest sales and profit among product categories.
-- The West region recorded the highest sales and profit.
-- Consumer customers contributed the highest sales.
-- Furniture had relatively low profitability despite substantial sales.
-- The Tables sub-category recorded a negative profit.
-
 **Power BI File:** [Download Retail Sales Dashboard](dashboard/Retail_Sales_Dashboard.pbix)
 
-## Data Quality Limitation
+## Key Business Insights
 
-The Tableau Sample Superstore dataset contains future-dated transactions in 2026. Therefore, 2026 results should not be interpreted as completed-year performance.
+- **Total Sales:** $2,326,534.35
+- **Total Profit:** $292,296.81
+- **Total Orders:** 5,111
+- **Total Customers:** 804
+- **Overall Profit Margin:** 12.56%
+- **Top Sales Category:** Technology, generating $839,893.28 in sales.
+- **Most Profitable Category:** Technology, generating $146,543.38 in profit.
+- **Top Performing Region:** West, with a 14.98% profit margin.
+- **Lowest Performing Region:** Central, with a 7.92% profit margin.
+- **Highest Sales Segment:** Consumer.
+- **Highest Margin Segment:** Home Office, at 14.02%.
+- **Most Profitable Customer:** Tamara Chand, generating $8,981.32 profit.
+- **Loss-Making Customers:** 159 customers recorded negative overall profit.
+- **Main Product Concern:** Furniture Tables generated a loss of $17,753.21, while Furniture Bookcases generated a loss of $3,632.07.
+
+### Business Recommendations
+
+1. **Optimize Discount Strategy:** Review high-discount transactions and evaluate their relationship with profitability.
+2. **Improve Product Profitability:** Investigate pricing, costs, and discounting for loss-making Furniture Tables and Bookcases.
+3. **Improve Regional Performance:** Analyze product mix and discount patterns in the Central region.
+4. **Customer Profitability:** Review loss-making customer transactions to identify opportunities to improve margins.
+5. **Monitor Performance:** Use the Power BI dashboard to track sales, profit margins, regional performance, and product trends.
+
+## Data Quality Limitations
+
+The Tableau Sample Superstore dataset contains future-dated transactions in 2026.
+
+A total of 553 transaction lines have order dates after November 24, 2026. These records contribute $109,557.73 in sales and $10,938.14 in profit.
+
+Therefore, 2026 results should not be interpreted as completed-year performance.
 
 The dataset is a sample dataset and should not be treated as actual company financial performance.
 
@@ -209,7 +206,7 @@ retail-sales-analysis/
 │   └── Retail_Sales_Dashboard.png
 │
 ├── README.md
-├── README_SQL.md
+└── README_SQL.md
 ```
 
 ## Project Status
@@ -219,15 +216,17 @@ retail-sales-analysis/
 - Dataset setup and initial exploration completed.
 - Python exploratory data analysis completed.
 - Excel sales analysis and reporting completed.
-- SQL business analysis scripts prepared.
+- All nine SQL analysis scripts executed and validated.
 - Power BI dashboard developed and uploaded.
-- Business insights documented.
+- Business insights and recommendations documented.
+- Project documentation completed.
 
 ## Future Improvements
 
-- Validate and execute all SQL scripts against the project database.
-- Add further SQL business analysis and interview-focused queries.
-- Expand dashboard analysis with additional KPIs and drill-downs.
+- Add advanced SQL queries using window functions and CTEs.
+- Expand Power BI analysis with additional KPIs and drill-down capabilities.
+- Explore predictive sales forecasting.
+- Automate data refresh and reporting workflows.
 
 ---
 
