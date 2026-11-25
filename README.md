@@ -107,17 +107,22 @@ Performed sales analysis using Microsoft Excel with PivotTables, PivotCharts, so
 
 ### Key Business Insights
 
-- Total Sales: $2.33 million
-- Total Profit: $292,296.81
-- Total Orders: 5,111
-- Total Customers: 804
-- Overall Profit Margin: 12.56%
-- Top Sales Category: Technology
-- Top Performing Region: West
-- Highest Sales Segment: Consumer
-- Highest Margin Segment: Home Office
-- Most Profitable Customer: Tamara Chand
-- Main Concern: Furniture has a relatively low profit margin.
+### Key Business Insights
+
+- **Total Sales:** $2,326,534.35
+- **Total Profit:** $292,296.81
+- **Total Orders:** 5,111
+- **Total Customers:** 804
+- **Overall Profit Margin:** 12.56%
+- **Top Sales Category:** Technology, generating $839,893.28 in sales.
+- **Most Profitable Category:** Technology, generating $146,543.38 in profit.
+- **Top Performing Region:** West, with a 14.98% profit margin.
+- **Lowest Performing Region:** Central, with a 7.92% profit margin.
+- **Highest Sales Segment:** Consumer.
+- **Highest Margin Segment:** Home Office, at 14.02%.
+- **Most Profitable Customer:** Tamara Chand, generating $8,981.32 profit.
+- **Main Concern:** Furniture Tables generated a loss of $17,753.21, while Furniture Bookcases generated a loss of $3,632.07.
+- **Loss-Making Customers:** 159 customers recorded negative overall profit.
 
 **Excel Report:** [View Excel Analysis](reports/Retail_Sales_Analysis.xlsx)
 
